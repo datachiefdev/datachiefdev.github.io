@@ -22,7 +22,7 @@
 		dots: true,
 		nav: false,
 		autoplay: true,
-    autoplayTimeout : 8000,
+    autoplayTimeout : 6000,
 		margin:0,
 		  responsive:{
 			  0:{
@@ -46,6 +46,7 @@
         dots: true,
         nav: false,
         autoplay: true,
+        autoplayTimeout : 5000,
         margin:5,
           responsive:{
               0:{
@@ -186,7 +187,7 @@
 	 $(window).on('load', function() {
     setTimeout(function(){
       $('#js-preloader').addClass('loaded');
-    },3000); 
+    },1000); 
         
 
     });
