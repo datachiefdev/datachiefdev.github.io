@@ -1090,8 +1090,8 @@ Services Style
 .our-services .services-left-dec img {
   width: 387px;
   height: 638px;
-  right: -220px;
-  top: -10px;
+  right: 0px;
+  top: -100px;
   position: absolute;
   z-index: 1;
 }
