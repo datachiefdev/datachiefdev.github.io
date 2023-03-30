@@ -991,10 +991,25 @@ Banner Style
 .main-banner .item h3 em {
   color: #2a3990;
   font-style: normal;
+  font-weight: bold;
+}
+
+.main-banner .item p em {
+  color: #2a3990;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.main-banner .item p span {
+  color: #d23369;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .main-banner .item h3 span {
   color: #d23369;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .main-banner .item h4 {

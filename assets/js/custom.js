@@ -22,7 +22,7 @@
 		dots: true,
 		nav: false,
 		autoplay: true,
-    autoplayTimeout : 6000,
+    autoplayTimeout : 8000,
 		margin:0,
 		  responsive:{
 			  0:{
