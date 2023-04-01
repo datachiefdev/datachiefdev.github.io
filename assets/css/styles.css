@@ -1267,6 +1267,7 @@ Portfolio
 
 .our-portfolio {
   padding-top: 120px;
+  padding-bottom: 120px;
   margin-top: 0px;
   position: relative;
 /*  background-color: #f5f5f5;*/
@@ -1876,6 +1877,18 @@ footer .about ul li a {
   width: 32px;
   height: 32px;
   background-color: #2a3990;
+  color: #fff !important;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  line-height: 32px;
+  font-size: 15px;
+}
+
+.not-active {
+  width: 32px;
+  height: 32px;
+  background-color: #737373 !important;
   color: #fff !important;
   border-radius: 50%;
   text-align: center;
