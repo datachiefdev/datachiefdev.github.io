@@ -44,21 +44,13 @@ https://templatemo.com/tm-565-onix-digital
         <img src="assets/images/logo2.png" style="width: 120px;">
       </div>
       <div class="p-2">
-        <svg class="filter" version="1.1">
-          <defs>
-            <filter id="gooeyness">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="gooeyness" />
-              <feComposite in="SourceGraphic" in2="gooeyness" operator="atop" />
-            </filter>
-          </defs>
-        </svg>
-        <div class="dots">
-          <div class="dot mainDot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
+        <div class="col-sm-2">
+          <div id="dots1">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
         </div>
       </div>
       
@@ -84,9 +76,9 @@ https://templatemo.com/tm-565-onix-digital
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
               <li class="scroll-to-section"><a href="#about">About</a></li>
               <li class="scroll-to-section"><a href="#services">Services</a></li>
-              <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Products</a></li>
               <li class="scroll-to-section"><a href="#clients">Clients</a></li> 
-              <li class="scroll-to-section"><a href="#footer">Contact Us</a></li> 
+              <li class="scroll-to-section"><div class="main-contact-button-hover"><a href="#footer">Contact Us</a></div></li> 
 
             </ul>        
             <a class='menu-trigger'>
@@ -104,107 +96,79 @@ https://templatemo.com/tm-565-onix-digital
     <div class="container-fluid p-0 m-0">
       <section class="module parallax parallax-1" data-type="background" data-speed="2">
         <div class="parallax-container">
-          <div class="row d-flex justify-content-center p-4 M-4 jumbotronnn">
+          <div class="row d-flex justify-content-center p-4 M-4">
             <div class="col-lg-6 align-self-center">
               <div class="">
                 <div class="item header-text">
-                  <h2 class="box_textshadow" >
-                    <em>Data</em><span>Chief</span> - <em>The leading </em>research, data, and technology solutions provider</h2>
+                  <h2 class="text-white" >
+                    <em class="box_textshadow">Data</em><span class="box_textshadow">Chief</span> - The leading research, data, and technology solutions provider
+                  </h2>
 
-                    <div class="down-buttons pt-3">
-                      <div class="main-blue-button-hover">
-                        <li class="scroll-to-section"><a href="#about">Get Started</a></li>
-                      </div>
-
+                  <div class="down-buttons pt-3">
+                    <div class="main-blue-button-hover">
+                      <li class="scroll-to-section"><a href="#about">Learn More</a></li>
                     </div>
-                  </div>
 
+                  </div>
                 </div>
+
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
     </div>
+  </div>
 
 
 
-    <div id="about" class="about-us section">
-      <div class="container">
-        <div class="row">
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
 
-          <div class="col-lg-12">
-            <div class="section-heading">
-              <div style="text-align: center;">
-                <h2>About <em>Data</em><span>Chief </span></h2>
-                <span>About Us</span>
-              </div>
-              <div id="tabs" class="container tabs pt-3" data-aos="fade-up">
-                <ul class="nav nav-tabs row d-flex">
-                  <li class="nav-item col-6">
-                    <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                      <i class="ri-gps-line"></i>
-                      <h5>Our Vision</h5>
-                    </a>
-                  </li>
-                  <li class="nav-item col-6">
-                    <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                      <i class="ri-body-scan-line"></i>
-                      <h5>Our Mission</h5>
-                    </a>
-                  </li>
-                </ul>
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <div style="text-align: center;">
+              <h2>About <em>Data</em><span>Chief </span></h2>
+              <!-- <span>About Us</span> -->
+            </div>
+            <div id="tabs" class="container tabs pt-3" data-aos="fade-up">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-2 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                      <h3 class="pb-1" style="color: #d23369;">Our Vision</h3>
 
-                <div class="tab-content">
-                  <div class="tab-pane active show" id="tab-1">
-                    <div class="row">
-                      <div class="col-lg-6 order-2 order-lg-2 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="pb-3" style="color: #d23369;">Our Vision</h3>
-
-                        <p style="font-size:20px;">
-                          To be the leading <strong>research, data and technology</strong> solutions provider that empowers organizations to <strong>harness the power of data-driven</strong> insights and innovation.
-                        </p>
-                      </div>
-                      <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/images/about-left-image.jpg" alt="" class="img-fluid">
-                      </div>
+                      <p style="font-size:20px;">
+                        To be the leading <strong>research, data and technology</strong> solutions provider that empowers organizations to <strong>harness the power of data-driven</strong> insights and innovation.
+                      </p>
+                      <br>
+                      <h3 class="pb-1" style="color: #2a3990;">Our Mission</h3>
+                      <p style="font-size:20px;">
+                       Help organizations <strong>unlock the full potential</strong> of their data by providing cutting-edge data analytics and technology solutions. We offer end-to-end services, from data collection and analysis to visualization and implementation of custom software applications.
+                      </p>
                     </div>
-                  </div>
-                  <div class="tab-pane" id="tab-2">
-                    <div class="row">
-                      <div class="col-lg-6 order-2 order-lg-2 mt-3 mt-lg-0" data-aos="fade-up">
-                        <h3 class="pb-3" style="color: #2a3990;">Our Mission</h3>
-                        <p style="font-size:20px;">
-                          Our mission is to help organizations <strong>unlock the full potential</strong> of their data by providing cutting-edge data analytics and technology solutions. We offer end-to-end services, from data collection and analysis to visualization and implementation of custom software applications.
-                        </p>
-                      </div>
-                      <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up">
-                        <img src="assets/images/about-right-image.jpg" alt="" class="img-fluid">
-                      </div>
+                    <div class="col-lg-6 order-1 order-lg-2 text-center d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                      <img src="assets/images/about-us.png" alt="" class="img-fluid">
                     </div>
                   </div>
                 </div>
+              </div>
 
-              </div><!-- End Tabs Section -->
-            </div>
+            </div><!-- End Tabs Section -->
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div id="services" class="our-services section">
-    <!-- <div class="services-right-dec">
-      <img src="assets/images/services-right-dec.png" alt="">
-    </div> -->
+  <div id="services" class="our-services section">
     <div class="container">
-      <!-- <div class="services-left-dec">
-        <img src="assets/images/services-left-dec.png" alt="">
-      </div> -->
       <div class="row">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
-            <h2>We <em>Provide</em> The Best Service With <span>Our Tools</span></h2>
-            <span>Our Services</span>
+            <h2>Our <span>Services</span></h2>
+            <!-- <span>Our Services</span> -->
           </div>
         </div>
       </div>
@@ -244,14 +208,14 @@ https://templatemo.com/tm-565-onix-digital
               <div class="icon"><img src="assets/images/services/ai.gif" alt=""></div>
               <p>Provides users with the skills and knowledge needed to analyze and extract insights from data.</p>
             </div>
-            
+
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  
+
 
   <div id="portfolio" class="our-portfolio section">
     <div class="container">
@@ -259,7 +223,7 @@ https://templatemo.com/tm-565-onix-digital
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
             <h2>Our Recent <em>Products</em> </h2>
-            <span>Our Products</span>
+            <!-- <span>Our Products</span> -->
           </div>
         </div>
       </div>
@@ -349,7 +313,7 @@ https://templatemo.com/tm-565-onix-digital
     </div>
   </div>
 
-<div id="clients" class="clients-tables">
+    <div id="clients" class="clients-tables">
 <!--     <div class="tables-left-dec">
     <img src="assets/images/tables-left-dec.png" alt="">
   </div> -->
@@ -360,8 +324,8 @@ https://templatemo.com/tm-565-onix-digital
     <div class="row">
       <div class="col-lg-6 offset-lg-3">
         <div class="section-heading">
-          <h2>Our Successful Pilot Collaboration <span>Clients</span></h2>
-          <span>Our Clients</span>
+          <h2>Our <span>Clients</span></h2>
+          <!-- <span>Our Clients</span> -->
         </div>
       </div>
     </div>
@@ -533,14 +497,14 @@ https://templatemo.com/tm-565-onix-digital
         <div class="services footer-item">
           <h4>Services</h4>
           <ul>
-            <li><a href="#services">Survey (Online and Offline)</a></li>
-            <li><a href="#services">Study, Desk Research & Analysis</a></li>
-            <li><a href="#services">Technology Blueprint</a></li>
-            <li><a href="#services">Roadmap Development</a></li>
-            <li><a href="#services">Data Training Series</a></li>
-            <li><a href="#services">System Development</a></li>
-            <li><a href="#services">Big Data Analytics</a></li>
-            <li><a href="#services">Data Science & AI Application</a></li>
+            <li class="scroll-to-section"><a href="#services">Survey (Online and Offline)</a></li>
+            <li class="scroll-to-section"><a href="#services">Study, Desk Research & Analysis</a></li>
+            <li class="scroll-to-section"><a href="#services">Technology Blueprint</a></li>
+            <li class="scroll-to-section"><a href="#services">Roadmap Development</a></li>
+            <li class="scroll-to-section"><a href="#services">Data Training Series</a></li>
+            <li class="scroll-to-section"><a href="#services">System Development</a></li>
+            <li class="scroll-to-section"><a href="#services">Big Data Analytics</a></li>
+            <li class="scroll-to-section"><a href="#services">Data Science & AI Application</a></li>
           </ul>
         </div>
       </div>
@@ -548,7 +512,7 @@ https://templatemo.com/tm-565-onix-digital
         <div class="community footer-item">
           <h4>Community</h4>
           <ul>
-            <li><a href="#portfolio">All in One Community App (Survee)</a></li>
+            <li class="scroll-to-section"><a href="#portfolio">All in One Community App (Survee)</a></li>
           </ul>
         </div>
       </div>
